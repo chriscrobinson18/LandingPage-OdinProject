@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .header, .layer1{
     background-color: #1f2937;
 }
@@ -8,36 +12,49 @@
 }
 
 .greytext{
-    color: #E5E7EB;
+    color: #c5cad3;
     font-size: 18px;
+}
+
+.button2 {
+    *max-width: 20x;
 }
 
 .button {
     background-color: #3882F6;
     color: white;
+    padding: 10px 20px;
 }
 
 .button1{
+    
     border: 2px solid white;
+    overflow: hidden;
+    white-space: nowrap;
+    border-radius: 5px;
 }
 
 .header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     color: white;
     font-size: 24px;
+    padding: 5px 100px;
 }
 ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    gap: 8px;
+    gap: 50px;
     align-items: center;
 }
 
 .layer1 {
     padding: 40px;
     display: flex;
+    gap: 150px;
+    justify-content: space-around;
 }
 
 .layer1left {
@@ -45,52 +62,111 @@ ul {
     flex-direction: column;
     color: white;
     font-size: 48px;
+    gap: 8px;
+    justify-content: center;
+    max-width: 450px;
 }
 
 .layer1right {
-    background-color: #E5E7EB;
+    display: flex;
+    padding: 100px;
+    align-items: center;
+    background-color: #c5cad3;
 }
 
 .layer2 {
     padding: 40px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
 }
 
 .layer2bottom {
     display: flex;
-    gap: 10px;
+    gap: 40px;
 }
 
 .box {
-    background-color: #3882F6;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
 }
 
 .layer3 {
-    padding: 40px;
     display: flex;
-    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    background-color: #c5cad3;
 }
 
-.author {
+.quoteContainer {
+
+    padding: 40px 120px;
+    max-width: 1000px;
+    
+}
+
+figcaption {
     display: flex;
-    flex-direction: row-reverse;
-    font-size: 24px;
+    justify-content: right;
 }
 
 .layer4{
-    padding: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .layer4Container {
+    border-radius: 10px;
     display: flex;
+    padding: 50px 100px;
+    gap: 100px;
+    justify-content:center;
 }
 
 .layer4Left {
     display: flex;
     flex-direction: column;
+    align-items: Left;
+}
+.layer4Right {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
 }
 
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+    font-size: 12px;
+    padding: 50px;
+}
 
+.box1color, .box2color, .box3color, .box4color {
+    display: flex;
+    padding: 80px;
+    border-radius: 5px;
+}
 
+.box1color {
+    background-color: #2474f5;
+}
+.box2color {
+    background-color: #5593f7;
+}
+.box3color {
+    background-color: #9ec1fa;
+}
+.box4color {
+    background-color: #e7f0fe;
+}
 
 
